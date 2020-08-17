@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const dishRouter = require('./routes/dishRouter');
 const leaderRouter = require('./routes/leaderRouter');
-const promoRouter = require('./routes/promotRouter');
+const promoRouter = require('./routes/promoRouter');
 
 app.use(morgan('dev'));
 app.use(bodyParser.json());
